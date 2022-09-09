@@ -14,13 +14,14 @@ from math import factorial
 
 
 def main():
+    # Input params
     minRangeNumber = 1
     maxRangeNumber = 20
 
-    target = range(minRangeNumber, maxRangeNumber)
+    target = range(minRangeNumber, maxRangeNumber + 1)
     factorEncounterScore = 0
     
-    for number in range(maxRangeNumber, factorial(maxRangeNumber), maxRangeNumber):
+    for number in range(maxRangeNumber, factorial(maxRangeNumber) + 1, maxRangeNumber):
         for factor in target:
             # Check if it is divisible
             if number % factor != 0:
@@ -33,27 +34,6 @@ def main():
 
         factorEncounterScore = 0                
 
-    
-    
-
-
-
-
-#     number = 20
-
-#     while not isDivisible(range(1, 21), number):
-#         print(f"# {number}: Not valid")
-#         number += 1
-
-#     print(f"Smallest positive number that is evenly divisible by all of the numbers from 1 to 20")
-#     print(f"Result: {number}")
-
-# def isDivisible(range: range, value: int) -> bool:
-#     for num in range:
-#         if value % num != 0:
-#             print(f"\t - {value} Not divible by {num}")
-#             return False
-#     return True
 
 if __name__ == "__main__":
     main()
