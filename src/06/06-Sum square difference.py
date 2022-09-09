@@ -26,7 +26,7 @@ def main():
     # Input params
     limit = 100
 
-    # App variable
+    # App variables
     sumOfSquares = 0
     squareOfTheSum = 0
 

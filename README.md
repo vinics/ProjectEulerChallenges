@@ -10,3 +10,4 @@ Challenges from [Project Euler](https://projecteuler.net) website.
 | 04   | [Largest palindrome from two 3-digit numbers](src/04/) |
 | 05   | [Smallest number evenly divisible by numbers from 1 to 20](src/05/) |
 | 06   | [Sum square difference](src/06/) |
+| 07   | [Sum square difference](src/07/) |
